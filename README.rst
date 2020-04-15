@@ -124,7 +124,7 @@ Towncrier has the following global options, which can be specified in the toml f
     filename = "NEWS.rst"
     directory = "directory/of/news/fragments"
     template = "path/to/template.rst"
-    start_line = "start of generated content"
+    start_string = "start of generated content"
     title_format = "{name} {version} ({project_date})"  # or false if template includes title
     issue_format = "format string for {issue} (issue is the first part of fragment name)"
     underlines: "=-~"
